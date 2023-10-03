@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
 	if(text==' '){
-		console.log(" ");
+		return " ";
 	}
 	else{
 		for(let i=0;i<text.length;i++){
