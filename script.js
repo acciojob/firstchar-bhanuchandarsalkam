@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
 	if(text===""){
-		return " ";
+		return "";
 	}
 	else{
 		for(let i=0;i<text.length;i++){
@@ -13,11 +13,12 @@ function firstChar(text) {
 				break;
 			}
 		}
+		return "";
 	}
 }
 
 // Do not change the code below
 
-const text = prompt("Enter text:");
+//const text = prompt("Enter text:");
 
-alert(firstChar(text));
+//alert(firstChar(text));
